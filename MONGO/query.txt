@@ -1,0 +1,5 @@
+db.collection.find({
+  insert_date: {
+    "$gt": ISODate("2022-04-01")
+  }
+})
