@@ -26,3 +26,6 @@
 ```PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin```
 
 ```* * * * * /home/vodafone-assessment/SHELL-SCRIPTING/temp_controller.sh >> /home/vodafone-assessment/SHELL-SCRIPTING/temp_controller.log 2>&1```
+
+### DEVOPS
+
