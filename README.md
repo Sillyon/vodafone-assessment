@@ -22,6 +22,7 @@
 * run ```crontab -e``` and to make **temp_controller.sh** scheduled every minutes, add following lines:
 
 ```SHELL=/bin/bash```
+
 ```PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin```
 
 ```* * * * * /home/vodafone-assessment/SHELL-SCRIPTING/temp_controller.sh >> /home/vodafone-assessment/SHELL-SCRIPTING/temp_controller.log 2>&1```
