@@ -21,7 +21,7 @@
 * run ```nohup /home/vodafone-assessment/SHELL-SCRIPTING/hello_world.sh &``` command to daemonize **hello_world.sh** as a process.
 * run ```crontab -e``` and to make **temp_controller.sh** scheduled every minutes, add following lines:
 
-```SHELL=/bin/bash
-PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+```SHELL=/bin/bash```
+```PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin```
 
-* * * * * /home/vodafone-assessment/SHELL-SCRIPTING/temp_controller.sh >> /home/vodafone-assessment/SHELL-SCRIPTING/temp_controller.log 2>&1```
+```* * * * * /home/vodafone-assessment/SHELL-SCRIPTING/temp_controller.sh >> /home/vodafone-assessment/SHELL-SCRIPTING/temp_controller.log 2>&1```
